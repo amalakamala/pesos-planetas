@@ -9,11 +9,9 @@ function elPeso(){
 	else if(planeta == "venus"){
 		alert("Tu peso en Mercurio es de: " + ((parseInt(elPeso) * 8.87) / 9.8).toFixed(3));
 	}
+	else if(planeta == "saturno"){
+		alert("Tu peso en Saturno es de: " + ((parseInt(elPeso) * 10.44) / 9.8).toFixed(3) + " Kg");
+	}else if(planeta == "urano"){
+		alert("Tu peso en Urano es de: " + ((parseInt(elPeso) * 8.69) / 9.8).toFixed(3) + " Kg");
+	}
 }
-
-
-
-
-
-
- 
