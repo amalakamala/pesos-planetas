@@ -9,6 +9,9 @@ function elPeso(){
 	else if(planeta == "venus"){
 		alert("Tu peso en Venus es de: " + ((parseInt(elPeso) * 8.87) / 9.8).toFixed(3) + " Kg");
 	}
+	else if(planeta =="marte"){
+		alert("Tu peso en Marte es de: " +((parseInt(elPeso) * 3.71) / 9.8).toFixed(3) + " Kg");
+	}
 	else if(planeta =="jupiter"){
 		alert("Tu peso en Jupiter es de: " +((parseInt(elPeso) * 24.79) / 9.8).toFixed(3) + " Kg");
 	}	
@@ -21,9 +24,6 @@ function elPeso(){
 	else if(planeta =="neptuno"){
 		alert("Tu peso en Neptuno es de: " +((parseInt(elPeso) * 11.15) /9.8).toFixed(3) + " Kg");
 	}	
-	else if(planeta =="marte"){
-		alert("Tu peso en Marte es de: " +((parseInt(elPeso) * 3.71) / 9.8).toFixed(3) + " Kg");
-	}
 	else if(planeta =="pluton"){
 		alert("Tu peso en Pluton es de: " +((parseInt(elPeso) * 0.62) / 9.8).toFixed(3) + " Kg");
 
